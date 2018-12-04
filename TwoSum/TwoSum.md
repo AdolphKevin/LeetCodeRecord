@@ -1,7 +1,7 @@
 **Easy**
 
 Given an array of integers, return indices of the two numbers such that they add up to a specific target.  
-给定一个整数数组，返回两个数字的索引，使它们相加到特定目标  
+给定一个整数数组，返回两个数字的**索引**，使它们**相加到特定目标**  
 
 You may assume that each input would have exactly one solution, and you may not use the same element twice.  
 您可以假设每个输入只有一个解决方案，并且您可能不会两次使用相同的元素。  
@@ -19,3 +19,5 @@ return [0, 1].
 暴力解：
 取出数组中的一个值，与数组中其它的数依次相加，判断是否等于目标值
 
+利用数组解:
+利用数组本身，替代另一个参数，从而减少时间复杂度
