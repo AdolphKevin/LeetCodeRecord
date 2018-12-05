@@ -6,7 +6,8 @@ Given an array of integers, return indices of the two numbers such that they add
 You may assume that each input would have exactly one solution, and you may not use the same element twice.  
 您可以假设每个输入只有一个解决方案，并且您可能不会两次使用相同的元素。  
 
-Example:
+**Example:**
+
 ```
 Given nums = [2, 7, 11, 15], target = 9,
 
@@ -14,7 +15,7 @@ Because nums[0] + nums[1] = 2 + 7 = 9,
 return [0, 1].
 ```
 
-解题思路：
+**解题思路：**
 
 暴力解：
 取出数组中的一个值，与数组中其它的数依次相加，判断是否等于目标值
